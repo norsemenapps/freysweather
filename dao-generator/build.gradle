@@ -1,7 +1,7 @@
 apply plugin: 'java'
 
 task(runMain, dependsOn: 'classes', type: JavaExec) {
-    main = '"com.norsemenapps.freysweather.WeatherDaoGenerator'
+    main = 'com.norsemenapps.freysweather.WeatherDaoGenerator'
     classpath = sourceSets.main.runtimeClasspath
 }
 

@@ -14,8 +14,8 @@ public class WeatherDaoGenerator {
     }
 
     private static void generateNewDb() throws Exception {
-        Schema schema = new Schema(VERSION_NUMBER, "\"\"com.norsemenapps.freysweather.model.model.db");
-        schema.setDefaultJavaPackageDao("\"com.norsemenapps.freysweather.model.dao");
+        Schema schema = new Schema(VERSION_NUMBER, "com.norsemenapps.freysweather.model.model.db");
+        schema.setDefaultJavaPackageDao("com.norsemenapps.freysweather.model.dao");
         schema.enableKeepSectionsByDefault();
         generateNewEntities(schema);
         new de.greenrobot.daogenerator.DaoGenerator().generateAll(schema, "../mobile/src/main/java/");

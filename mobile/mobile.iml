@@ -137,6 +137,7 @@
     <orderEntry type="library" exported="" name="play-services-appstate-8.1.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-gcm-8.1.0" level="project" />
     <orderEntry type="library" exported="" name="design-23.1.0" level="project" />
+    <orderEntry type="library" exported="" name="greendao-2.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-safetynet-8.1.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-games-8.1.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-wallet-8.1.0" level="project" />
